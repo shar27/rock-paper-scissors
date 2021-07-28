@@ -1,0 +1,90 @@
+body {
+    align-items: center;
+    background:black;
+  }
+  
+  header {
+    color:white;
+    }
+    header > h1 {
+      display:flex;
+      justify-content: center;
+      padding: 30px 10px;
+    }
+    
+  
+  .container {
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+
+.score-place {
+    display:flex;
+    justify-content:center;
+    border:solid 3px;
+    border-color: white;
+    padding: 15px;
+    margin: 0 200px;
+   
+    
+}
+
+.badge {
+display:flex;
+justify-content: space-center;
+border: solid;
+border-color:white;
+
+}
+
+.badge-u {
+  color:white;
+  margin-right: 20px;
+
+}
+
+.badge-c {
+  color:white;
+  margin-right:20px;
+  margin-left: 5px;
+}
+
+span {
+color: white;
+  
+}
+  
+.game-hands {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+img {
+    width:200px;
+    border: solid;
+    border-color: black;
+    border-radius: 100px;
+}
+
+  
+ 
+  .result > p {
+    display: flex;
+    justify-content:center;
+    color: white;
+    padding: 30px 10px;
+    font-size: 30px;
+
+    
+  }
+.option:hover {
+  cursor: pointer;
+  background: white;
+
+}
+  
